@@ -9,12 +9,12 @@ alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/projects"
 alias g="git"
 
+# wix staff
 alias npmpublic="npm config set registry https://registry.npmjs.org/ && npm config get registry"
 alias npmprivate="npm config set registry http://npm.dev.wixpress.com && npm config get registry"
 
